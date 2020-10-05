@@ -2,7 +2,9 @@ import BrasilBandeira from '../../img/brasil.png'
 import AlemanhaBandeira from '../../img/alemanha.png'
 import ChinaBandeira from '../../img/china.png'
 import EUABandeira from '../../img/eua.png'
+import IndiaBandeira from '../../img/india.png'
 import ItaliaBandeira from '../../img/italia.png'
+import RussiaBandeira from '../../img/russia.png'
 
 const PAISES = [
   {
@@ -26,9 +28,19 @@ const PAISES = [
     flag: EUABandeira
   },
   {
+    label: 'India',
+    value: 'india',
+    flag: IndiaBandeira
+  },
+  {
     label: 'Itália',
     value: 'italy',
     flag: ItaliaBandeira
+  },
+  {
+    label: 'Russia',
+    value: 'russia',
+    flag: RussiaBandeira
   }
 ]
 
